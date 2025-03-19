@@ -1,0 +1,23 @@
+```plaintext
+# PyTorch с поддержкой CUDA (укажите нужную версию и cuda-версию, пример для CUDA 11.3)
+torch>=1.12.0+cu113 -f https://download.pytorch.org/whl/torch_stable.html
+torchvision>=0.13.0+cu113 -f https://download.pytorch.org/whl/torch_stable.html
+
+# Для работы с изображениями и визуализации
+Pillow>=8.0.0
+opencv-python>=4.5.0
+
+# Аугментации и предобработка
+albumentations>=1.0.0
+albumentations[imgaug]==1.2.1
+albumentations>=1.2.1
+albumentations[extra]>=1.2.1
+
+# Для работы с форматом COCO
+pycocotools>=2.0.0
+
+# TensorBoard для мониторинга обучения
+tensorboard>=2.9.0
+
+# Дополнительные библиотеки (если необходимо)
+numpy>=1.18.0
