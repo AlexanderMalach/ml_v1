@@ -125,11 +125,11 @@ python src/inference/inf_2.py
 
 3. **Обновите файл requirements.txt:**
 
-   Например, если у вас CUDA 11.6, команда может выглядеть так:
+   Например, если у вас CUDA 12.8, команда может выглядеть так:
    ```plaintext
-   torch>=1.12.0+cu116 -f https://download.pytorch.org/whl/torch_stable.html
-   torchvision>=0.13.0+cu116 -f https://download.pytorch.org/whl/torch_stable.html
+   torch>=1.12.0+cu128 -f https://download.pytorch.org/whl/torch_stable.html
+   torchvision>=0.13.0+cu128 -f https://download.pytorch.org/whl/torch_stable.html
    ```
-   Если у вас другая версия, просто замените часть `cu116` на нужное значение (например, `cu128`).
+   Если у вас другая версия, просто замените часть `cu128` на нужное значение (например, `cu116`).
 
 Таким образом, вы удостоверитесь, что устанавливаете версии библиотек, оптимизированные для вашей версии CUDA и оборудования.
